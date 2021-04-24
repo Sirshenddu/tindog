@@ -1,0 +1,164 @@
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+
+}
+
+h1{
+    font-family: "Montserrat-black";
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "montserrat-bold";
+}
+
+p{
+    color:#8f8f8f;
+}
+
+body{
+    font-family: "montserrat";
+}
+
+/* navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+
+}
+
+.nav-item{
+    padding: 50px,18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+  
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    /* position: absolute;  */
+}
+
+#features{
+    padding: 7% 15%;
+     background-color: #fff;
+    /* position: absolute;
+    z-index: 1;  */
+} 
+
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+/* Testimonials */
+
+#testimonials{
+    
+     text-align: center;
+     background-color: #ff4c68;
+     color: #fff;
+     text-size-adjust: 3.5rem;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+/* press */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 50px 20px;
+}
+
+/* priceing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+
+
+}
+.pricing-colum{
+    padding:3% 2% 
+}
+
+#cta{
+    background-color: #ff4c68;
+    font-family: "Montserrat-black";
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 5% 10%;
+    color:#fff;
+    
+}
+
+#footer{
+text-align: center;
+font-size: .5rem;
+padding: 3% 2%;
+}
+
+.fab{
+    padding: 5px;
+}
+
+@media(max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+
+
+
